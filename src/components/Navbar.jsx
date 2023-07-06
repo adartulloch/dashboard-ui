@@ -17,7 +17,7 @@ import {
   Tooltip,
   useTheme,
 } from "@mui/material";
-import FlexBetween from "./FlexBewteen";
+import FlexBetween from "./FlexBetween";
 
 const Navbar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   const dispatch = useDispatch();
