@@ -22,7 +22,6 @@ import FlexBetween from "./FlexBewteen";
 const Navbar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   const dispatch = useDispatch();
   const theme = useTheme();
-  console.log(isSidebarOpen);
   return (
     <AppBar
       sx={{
